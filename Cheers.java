@@ -21,6 +21,7 @@ public class Cheers {
                         System.out.println();
                         }       
                 }
+                System.out.println("What does that spell?");
                 while (numberOfRounds > 0) {
                         System.out.println(theWord +"!!!");
                         numberOfRounds --;
