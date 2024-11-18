@@ -4,9 +4,6 @@ public  class  TestRandom {
 	    int numberOfRounds = Integer.parseInt(args[0]);
 		double over = 0;
 		double under = 0;
-		if (numberOfRounds <= 0) {
-			System.out.println("please enter positive number");	
-		}
 		while (numberOfRounds>0) {
 			if (Math.random() > 0.5){
 				over ++;
